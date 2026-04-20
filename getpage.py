@@ -4,9 +4,6 @@ import sys
 import os
 import re
 
-# If you want to use a session, you can create it like this:
-#session =  requests.Session()
-
 # Read password from external file
 with open('credentials.txt', 'r') as f:
     conf_password = f.read().strip()
